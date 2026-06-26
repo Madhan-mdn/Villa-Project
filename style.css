@@ -53,6 +53,12 @@
     border-bottom: 1px solid gray;
     align-items: center;
     padding: 0px 80px;
+    position: sticky;
+    width: 100%;
+    z-index: 100;
+    top: 0px;
+    left:0;
+    background-color: white;
 }
 .header>.title{
     font-size: 34px;
@@ -86,7 +92,7 @@
     padding-right: 20px;
 }
 
-.schedule-button .fa-calendar{
+.schedule-button .icon{
     width: 50px;
     height: 50px;
     background-color: rgb(255, 100, 4);
@@ -99,4 +105,33 @@
 
 .navlinks li a:hover, .navlinks li a.active{
     color: rgb(255, 100, 4);
+}
+.home-banner{
+    width: 100%;
+    position: relative;
+}
+.home-banner img{
+    width: 100%;
+    display: block;
+}
+.home-banner .banner-content{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 200px;
+}
+.banner-content>p{
+    background-color: white;
+    color: black;
+    display: inline-block;
+    padding: 5px;
+}
+.banner-content>p>span{
+    color: rgb(255, 100, 4);
+}
+.banner-content>h1{
+    margin-top: 20px;
+    font-size: 50px;
+    width: 400px;
+    line-height: 60px;
 }
