@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header-info{
+    height: 50px;
+    padding: 0px 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid gray;
+}
+.header-info-left{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.header-info-mail, .header-info-place{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: gray;
+    font-size: 18px;
+}
+.fa-envelope, .fa-map{
+    color: rgb(255, 100, 4);
+}
+.header-info-icons{
+    display: flex;
+    gap: 15px;
+}
+.header-info-icons a{
+    background-color: gray;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    align-items: center;
+}
