@@ -16,7 +16,9 @@
     align-items: center;
     gap: 50px;
 }
-
+.header-info-mail p, .header-info-place p{
+    margin: 0;
+}
 .header-info-mail, .header-info-place{
     display: flex;
     align-items: center;
@@ -47,7 +49,7 @@
     background-color: rgb(255, 100, 4);
 }
 
-.header{
+.head{
     display: flex;
     height: 100px;
     border-bottom: 1px solid gray;
@@ -60,12 +62,12 @@
     left:0;
     background-color: white;
 }
-.header>.title{
+.head>.title{
     font-size: 34px;
     letter-spacing: 3px;
     width: 40%;
 }
-.navbar{
+.main-navbar{
     display: flex;
     justify-content: center;
     flex: 1;
@@ -74,11 +76,13 @@
     display: flex;
     list-style: none;
     gap: 60px;
+    margin: 0;
+    padding: 0;
 }
 .navlinks li a{
     text-decoration: none;
     color: black;
-    font-size: 20px;
+    font-size: 18px;
 }
 .schedule-button{
     text-decoration: none;
@@ -134,4 +138,109 @@
     font-size: 50px;
     width: 400px;
     line-height: 60px;
+}
+
+.home-featured-page{
+    display: flex;
+    padding: 120px 80px;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 60px;
+}
+.featured-image{
+    width: 30%;
+    height: 500px;
+    position: relative;
+}
+.featured-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.featured-icon{
+    position: absolute;
+    bottom: -40px;
+    left: -30px;
+    background-color: rgb(255, 100, 4);
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.featured-icon>img{
+    width: 40px;
+    height: 40px;
+}
+.featured-info{
+    width: 40%;
+}
+.featured-info>p{
+    color: rgb(255, 100, 4);
+    font-weight: bold;
+}
+.featured-info>h1{
+    font-size: 40px;
+    margin: 20px 0;
+    line-height: 50px;
+}
+.accordion{
+    margin-top: 40px;
+}
+.accordion-button{
+    background: white;
+    color: black;
+    box-shadow: none;
+    border: none;
+}
+.accordion-button:hover{
+    color: rgb(255, 100, 4);
+    background: white;
+}
+.accordion-button:not(.collapsed){
+    background: white;
+    color: rgb(255, 100, 4);
+    box-shadow: none;
+}
+.accordion-button:focus{
+    box-shadow: none;
+    outline: none;
+}
+.accordion-button::after{
+    display: none;
+}
+.accordion-body{
+    line-height: 1.8;
+    color: gray;
+}
+.featured-features{
+    width: 20%;
+    box-shadow: 0px 0px 20px black;
+    padding:25px;
+    border-radius:10px;
+}
+.featured-features .item{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding:20px 0;
+}
+.featured-features .item:not(:last-child){
+    border-bottom: 1px solid gray;
+}
+.item img{
+    width: 45px;
+}
+.item-details{
+    display: flex;
+    flex-direction: column;
+}
+.item-details h4{
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+.item-details p{
+    color: gray;
+    font-size: 14px;
 }
