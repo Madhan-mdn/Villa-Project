@@ -5,7 +5,7 @@
 }
 .header-info{
     height: 50px;
-    padding: 0px 70px;
+    padding: 0px 80px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -39,5 +39,64 @@
     display: flex;
     text-decoration: none;
     justify-content: center;
+    color: white;
     align-items: center;
+    transition: 0.5s;
+}
+.header-info-icons a:hover{
+    background-color: rgb(255, 100, 4);
+}
+
+.header{
+    display: flex;
+    height: 100px;
+    border-bottom: 1px solid gray;
+    align-items: center;
+    padding: 0px 80px;
+}
+.header>.title{
+    font-size: 34px;
+    letter-spacing: 3px;
+    width: 40%;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+.navlinks{
+    display: flex;
+    list-style: none;
+    gap: 60px;
+}
+.navlinks li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.schedule-button{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    border-radius: 30px;
+    padding-right: 20px;
+}
+
+.schedule-button .fa-calendar{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(255, 100, 4);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+} 
+
+.navlinks li a:hover, .navlinks li a.active{
+    color: rgb(255, 100, 4);
 }
