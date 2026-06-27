@@ -526,6 +526,7 @@
 
 .home-contact-page{
     position: relative;
+    padding-bottom: 550px;
 }
 .contact-bg{
     position: relative;
@@ -634,4 +635,17 @@
 }
 .contact-form button:hover{
     background: rgb(255, 100, 4);
+}
+
+.foot{
+    height: 100px;
+    width: 100%;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.foot p{
+    margin:0;
+    color: white;
 }
