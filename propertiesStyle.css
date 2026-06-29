@@ -119,3 +119,56 @@
 .navlinks li a:hover, .navlinks li a.active{
     color: rgb(255, 100, 4);
 }
+
+.banner{
+    width: 100%;
+    position: relative;
+}
+.banner img{
+    width: 100%;
+}
+.banner-content{
+    position: absolute;
+    top: 32%;
+    left: 52%;
+    transform: translateX(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+.banner-content p{
+    width: fit-content;
+    background: white;
+    text-align: center;
+    padding: 10px 20px;
+}
+.banner-content h1{
+    color: white;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+.properties-button{
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.properties-button button a{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+.properties-button button{
+    background: black;
+    padding: 15px 25px;
+    border-radius: 6px;
+    border: none;
+    transition: background 0.4s;
+}
+.properties-button button:hover,
+.properties-button .active{
+    background: rgb(255, 100, 4);;
+}
