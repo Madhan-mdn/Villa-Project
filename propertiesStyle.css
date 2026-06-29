@@ -248,3 +248,26 @@
 .property-schedule a:hover{
     background: rgb(255, 100, 4);
 }
+
+.page-buttons{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.page-buttons button{
+    background: black;
+    width: 35px;
+    height: 35px;
+    border: none;
+    border-radius: 50%;
+    transition: 0.4s;
+}
+.page-buttons button a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.page-buttons button:hover,
+.page-buttons .active{
+    background: rgb(255, 100, 4);
+}
