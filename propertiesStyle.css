@@ -271,3 +271,17 @@
 .page-buttons .active{
     background: rgb(255, 100, 4);
 }
+
+.foot{
+    margin-top: 150px;
+    height: 100px;
+    width: 100%;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.foot p{
+    margin:0;
+    color: white;
+}
