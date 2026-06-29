@@ -160,17 +160,21 @@
     color: white;
     font-size: 15px;
     font-weight: bold;
+    transition: color 0.4s;
 }
 .properties-button button{
     background: black;
     padding: 15px 25px;
     border-radius: 6px;
     border: none;
+    cursor: pointer;
     transition: background 0.4s;
 }
-.properties-button button:hover,
+.properties-button button:not(.active) a:hover{
+    color: rgb(255, 100, 4);
+}
 .properties-button .active{
-    background: rgb(255, 100, 4);;
+    background: rgb(255, 100, 4);
 }
 
 .properties-container{
@@ -260,6 +264,7 @@
     height: 35px;
     border: none;
     border-radius: 50%;
+    cursor: pointer;
     transition: 0.4s;
 }
 .page-buttons button a{
