@@ -1,10 +1,10 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Contact Us</title>
-    <link rel="stylesheet" href="./contact.css">
+    <link rel="stylesheet" href="./contact.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
@@ -12,8 +12,8 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-</head>
-<body>
+  </head>
+  <body>
     <section class="header-info">
       <div class="header-info-left">
         <div class="header-info-mail">
@@ -58,5 +58,64 @@
         <h1>CONTACT US</h1>
       </div>
     </div>
-</body>
+
+    <div class="contact-details">
+      <div class="contact-details-left">
+        <p class="title">| CONTACT US</p>
+        <h1>
+          Get In Touch <br />
+          With Our Agents
+        </h1>
+        <p class="content">
+          When you really need to download best websites, places remember to
+          check our contact information below. Thank you for visiting. There is
+          a variety og Bootstrap HTML CSS templates on our website. If you need
+          more information, please contactm us.
+        </p>
+        <div class="info-card">
+          <img src="./images/phone-icon.png" alt="phone-icon" />
+          <div>
+            <h5>010-020-0340</h5>
+            <p>Phone Number</p>
+          </div>
+        </div>
+        <div class="info-card">
+          <img src="./images/email-icon.png" alt="mail-icon" />
+          <div>
+            <h5>info@villa.co</h5>
+            <p>Business Email</p>
+          </div>
+        </div>
+      </div>
+      <form class="contact-form">
+        <label for="full-name">Full Name</label>
+        <input
+          type="text"
+          id="full-name"
+          name="fullName"
+          placeholder="Your Name.."
+          required
+        />
+        <label for="mail">Email Address</label>
+        <input
+          type="email"
+          id="mail"
+          name="email"
+          placeholder="Your E-mail.."
+        />
+        <label for="subject">Subject</label>
+        <input type="text" id="subject" name="subject" placeholder="Subject" />
+        <label for="message">Message</label>
+        <textarea
+          id="message"
+          name="message"
+          rows="5"
+          placeholder="Your Message"
+        ></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+
+
+  </body>
 </html>
