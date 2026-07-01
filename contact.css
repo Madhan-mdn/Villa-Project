@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.header-info{
+    height: 50px;
+    padding: 0px 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid gray;
+}
+.header-info-left{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.header-info-mail p, .header-info-place p{
+    margin: 0;
+}
+.header-info-mail, .header-info-place{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: gray;
+    font-size: 18px;
+}
+.fa-envelope, .fa-map{
+    color: rgb(255, 100, 4);
+}
+.header-info-icons{
+    display: flex;
+    gap: 15px;
+}
+.header-info-icons a{
+    background-color: gray;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    display: flex;
+    text-decoration: none;
+    justify-content: center;
+    color: white;
+    align-items: center;
+    transition: 0.5s;
+}
+.header-info-icons a:hover{
+    background-color: rgb(255, 100, 4);
+}
+
+.head{
+    display: flex;
+    height: 100px;
+    border-bottom: 1px solid gray;
+    align-items: center;
+    padding: 0px 80px;
+    position: sticky;
+    width: 100%;
+    z-index: 100;
+    top: 0px;
+    left:0;
+    background-color: white;
+}
+.head>.title{
+    font-size: 34px;
+    letter-spacing: 3px;
+    width: 40%;
+    font-weight: bold;
+}
+.main-navbar{
+    display: flex;
+    justify-content: center;
+    flex: 1;
+}
+.navlinks{
+    display: flex;
+    list-style: none;
+    gap: 60px;
+    margin: 0;
+    padding: 0;
+}
+.navlinks li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+.schedule-button{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    height: 50px;
+    width: fit-content;
+    border-radius: 30px;
+    padding-right: 22px;
+}
+.schedule-button .btn{
+    color: white;
+    font-size: 18px;
+    transition: color .3s;
+}
+.schedule-button:hover .btn{
+    color: rgb(255, 100, 4);
+}
+.schedule-button .icon{
+    width: 50px;
+    height: 50px;
+    background-color: rgb(255, 100, 4);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 10px;
+    flex-shrink: 0;
+}
+.navlinks li a:hover, .navlinks li a.active{
+    color: rgb(255, 100, 4);
+}
