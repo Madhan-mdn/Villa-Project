@@ -169,7 +169,7 @@
     cursor: pointer;
     transition: background 0.4s;
 }
-.properties-button button:not(.active) a:hover{
+.properties-button button:not(.active), button:hover a{
     color: rgb(255, 100, 4);
 }
 .properties-button .active{
