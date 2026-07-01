@@ -345,6 +345,7 @@
 
 .best-deals-page{
     padding: 100px;
+    background: rgba(184, 184, 184, 0.1);
 }
 .best-deals-page>p{
     color: rgb(255, 100, 4);
@@ -382,7 +383,7 @@
 .deal-details{
     display: flex;
     justify-content: space-evenly;
-    gap: 45px;
+    gap: 50px;
     align-items: start;
     padding: 40px 0;
 }
@@ -415,16 +416,17 @@
     font-size: 14px;
 }
 .deal-image{
-    width: 40%;
+    width: 45%;
+    height: 400px;
 }
 .deal-image img{
     width: 100%;
-    height: 420px;
+    height: 100%;
     object-fit: cover;
     display: block;
 }
 .deal-info{
-    width: 28%;
+    width: 25%;
 }
 .deal-info .heading{
     font-weight: bold;
